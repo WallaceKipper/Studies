@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+<body>
+	<form action="contato.php" method="get"> 
+		<div class="field">
+			<label for="nome">Nome: </label>
+			<input type="text" id="nome" name="nome" placeholder="Digite seu Nome">
+		</div>
+		<div class="field">	
+			<label for="number">Digite seu Número de Telefone</label>
+			<input type="text" placeholder="(xx) x-xxxx-xxxx" name="number">
+		</div>
+		<div class="field checkbox">
+			<label for="opcao">Você Gostou do Site?</label>
+			<input type="radio" name="opcao" value="sim" checked="checked">Sim
+			<input type="radio" id="nao" name="opcao" value="nao">Não 	
+			<label for="linguagem">Você quer aprender mais sobre:</label>
+			<input type="checkbox" name="html">HTML
+			<input type="checkbox" name="css">CSS
+		</div>
+		<div class="field">
+			<label for="date">Data de Nascimento</label>
+			<input type="date">
+		</div>
+		<div class="field">
+			<label for="email">Digite seu E-mail</label>
+			<input type="email" name="email" placeholder="Digite seu E-mail">
+		</div>
+		<div class="field">
+			<label for="senha">Digite sua Senha</label>
+			<input type="password" name="senha" placeholder="Sua Senha" maxlength="5">
+		</div>
+		<div class="field">
+			<label for="msg">Deixe uma Mensagem</label>
+			<textarea name="msg"></textarea>
+		</div>
+		<div class="field checkbox">
+			<label for="sat">Diga o nivel de satisfação</label><br>
+			Pouco satisfeito
+			<input type="range" name="satisfacao" min="0" max="10">
+			Muito satisfeito
+		</div>
+		<input type="reset">
+		<input type="submit" value="Enviar" name="acao">
+	</form>
+	
+</body>
+</html>
