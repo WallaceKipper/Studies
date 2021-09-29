@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+#soma{
+    float: left;
+    background-color: crimson;
+    text-align: center;
+    width: 630px;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#sub{
+    float: right;
+    background-color: crimson;
+    text-align: center;
+    width: 630px;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 25px;
+    border-color: darkslateblue;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+}
