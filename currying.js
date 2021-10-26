@@ -54,3 +54,12 @@ const userWithFullName = getUserWithFullName(user);
  console.log('\nLista de Alunos');
  console.log(students);*/
 
+ const persons = ['Guilherme', 'Pedro' , 'Jennifer' ];
+
+ persons.push('João');
+
+ persons.shift();
+
+ persons[1] = 'James';
+
+ console.log('\n Array após as alterações: ', persons);
